@@ -6,8 +6,8 @@
 
 ## 
 
-makeCacheMatrix <- function(x = matrix()) {  ##accepts as input a square matrix to be inverted
-        i <- NULL    ##assigns i holds the inverted matrix.  i is only accessible using the get function 
+makeCacheMatrix <- function(x = matrix()) {  ##accepts as input a square matrix to be inverted.  x is accessible using the get() function
+        i <- NULL    ##assigns i holds the inverted matrix.  i is only accessible using the getinverse() function 
         
         set <- function(y) {  ## first method "set", allows the stored matrix, x, to be overwritten with matrix y.  Not used in Programming Assignment 2  
                 x <<- y
